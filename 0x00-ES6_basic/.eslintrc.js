@@ -1,14 +1,13 @@
-{
-    "env": {
-        "es6": true,
-        "node": true
+module.exports = {
+    env: {
+      browser: true,
+      es2021: true,
     },
-    "parserOptions": {
-        "ecmaVersion": 2018,
-        "sourceType": "module"
+    parserOptions: {
+      ecmaVersion: 12,
+      sourceType: 'module',
     },
-    "extends": "eslint:recommended",
-    "rules": {
-        // add rules here
-    }
-}
+    rules: {
+      // Add your rules here
+    },
+  };
